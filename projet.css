@@ -1,0 +1,52 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: url('https://cdn.pixabay.com/photo/2015/10/24/11/10/wine-bottle-1004258_1280.jpg');
+  }
+
+#navbarnav{
+    justify-content: center;
+}
+
+
+#hovermn:hover{
+    background-color: darkred;
+    
+}
+
+
+
+h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#iconone{
+    padding-right: 20px;
+}
+#icontwo{
+    padding-right: 20px;
+}
+#iconthree{
+    padding-right: 20px;
+}
+#iconfour{
+    padding-right: 20px;
+}
+
+label{
+    color: whitesmoke;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 0%;
+    background-color: black;
+    color: white;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+

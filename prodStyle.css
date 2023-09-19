@@ -1,0 +1,213 @@
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2015/10/24/11/10/wine-bottle-1004258_1280.jpg');
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    padding: none;
+    background-image: url('https://cdn.pixabay.com/photo/2016/09/10/13/34/grapes-1659118_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 16rem;
+}
+
+.a-nav{
+  padding: 20px;
+  justify-content: space-between;
+  color: rgb(255, 251, 230);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.avatar h1 {
+  font-size: 45px;
+  color: rgb(255, 250, 220);
+  text-shadow: darkgoldenrod;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 6rem;
+}
+
+.avatar {
+  display: flex;
+}
+
+.avy {
+  border-radius: 50%;
+	width:5%;
+  height: 1%;
+	box-shadow: 0 2px 3px 0 rgba(34, 60, 80, .16);
+	transition: all ease-in-out .2s;
+	overflow: show;
+  justify-content: left;
+  display: flex;
+}
+
+.avy :hover {
+	box-shadow: 0 4px 6px 0 rgba(34,60,80,.16);
+}
+
+
+.active {
+    background-color: transparent; 
+}
+
+.navbar {
+    overflow: hidden;
+    display: baseline;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #73808a;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(44, 44, 44, 0.692)
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover, footer a:hover {
+  background-color:transparent;
+  color: rgb(211, 57, 57);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    display: contents;
+    max-width: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2015/10/24/11/10/wine-bottle-1004258_1280.jpg');
+  }
+
+  .navbar #MyHeader {
+    display: contents;
+  }
+}
+
+.search {
+    width: auto;
+    height: 120%;
+    padding: 4%;
+    margin-bottom: 1rem;
+    background-color: burlywood;
+    background-color: rgba(51, 50, 49, 0.692);
+    justify-content: center;
+    align-items: center;
+}
+.example {
+    justify-content: flex-end;
+    align-items: baseline;
+    flex-basis: auto;
+    padding: 4%;
+    margin-left: 30%;
+  }
+  form.example input[type=text] {
+    padding: 6px;
+    font-size: 12px;
+    border: 1px solid rgb(67, 67, 67);
+    width: 40%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    width: 5%;
+    padding: 6px;
+    background: #9d8748;
+    color: white;
+    font-size: 12px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .produits {
+    padding: 10px;
+    width: auto;
+    display: block;
+  }
+
+  .ventes {
+    display: flex;
+    margin-bottom: ;
+    justify-content: flex-start;
+    align-items: flex;
+    justify-content: center;
+  }
+
+  .vins {
+    width: 45%;
+    margin: 1rem;
+    background-color: burlywood;
+    background-color: rgba(166, 164, 155, 0.692);
+  }
+
+  .h2 {
+    text-align: center;
+    float: right;
+    width: 48%;
+    margin-top: 1rem;
+    margin-right: 2rem;
+  }
+  
+  .vin {
+    display: flex;
+    float: left;
+    width: 40%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .moreVin {
+    margin: 1rem;
+  }
+
+  .more {
+    text-align: center;
+    width: 91%;
+    background-color: rgb(220, 176, 114);
+    background-color: rgba(203, 193, 174, 0.692);
+    padding: 1%;
+    margin-left: 4rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .more p, .more a {
+    color: white;
+    text-underline-offset: none;
+  }
+
+.footer {
+  padding: 2%;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(45, 45, 45);
+  background-color: rgba(50, 49, 48, 0.692)
+}
+
+footer a{
+  color: #ffffff;
+  text-decoration: none;
+}
