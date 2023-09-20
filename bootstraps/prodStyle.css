@@ -92,6 +92,18 @@ body {
     display: contents;
   }
 
+  .avatar h1 {
+    text-align: center;
+  }
+
+  .navbar {
+    background-color: #1e1e1e;
+  }
+
+  .a-nav {
+    display: block;
+    background-color: transparent;
+  }
 
   .vins {
     text-align: center;
